@@ -1,0 +1,200 @@
+ERROR - 2023-09-04 00:04:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FETCH'.
+CRITICAL - 2023-09-04 00:04:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FETCH'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0 FETCH NEXT 3')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:05:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'NEXT'.
+CRITICAL - 2023-09-04 00:05:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'NEXT'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0 NEXT 3')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:05:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+CRITICAL - 2023-09-04 00:05:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0 LIMIT 3')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:05:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '0'.
+CRITICAL - 2023-09-04 00:05:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '0'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:05:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '0'.
+CRITICAL - 2023-09-04 00:05:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '0'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:06:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+CRITICAL - 2023-09-04 00:06:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC OFFSET 0 ROWS LIMIT 3')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-04 00:06:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+CRITICAL - 2023-09-04 00:06:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'LIMIT'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_news ORDER BY date_added DESC LIMIT 3 OFFSET 0 ROWS')
+ 2 APPPATH\Controllers\News.php(27): App\Models\NewsModel->getNews(0, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\News->getNews('1')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 00:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-04 00:39:07 --> Undefined array key "pos"
+in APPPATH\Views\site\leaderboard.php on line 31.
+ 1 APPPATH\Views\site\leaderboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pos"', 'C:\\nginx-1.24.0\\html\\app\\Views\\site\\leaderboard.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\site\\leaderboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('site/leaderboard', [], true)
+ 5 APPPATH\Controllers\Leaderboard.php(22): view('site/leaderboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Leaderboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leaderboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 00:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-04 00:39:14 --> Undefined array key "GamerTag"
+in APPPATH\Views\site\leaderboard.php on line 32.
+ 1 APPPATH\Views\site\leaderboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "GamerTag"', 'C:\\nginx-1.24.0\\html\\app\\Views\\site\\leaderboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\site\\leaderboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('site/leaderboard', [], true)
+ 5 APPPATH\Controllers\Leaderboard.php(22): view('site/leaderboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Leaderboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leaderboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 00:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 00:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-04 01:27:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.Accounts' with unique index 'IX_Accounts_email'. The duplicate key value is (adnan@test.com).
+CRITICAL - 2023-09-04 01:27:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.Accounts' with unique index 'IX_Accounts_email'. The duplicate key value is (adnan@test.com).
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(84): CodeIgniter\Database\BaseConnection->query('INSERT INTO Accounts ( 
+            email,
+            UserID,
+            MD5Password,
+            AccountStatus,
+            dateregistered,
+            ReferralID,
+            lastlogindate,
+            lastloginIP
+        ) VALUES (
+            \'adnan@test.com\',
+            \'12345\',
+            \'12345\',
+            \'100\',
+            GETDATE(),
+            0,
+            GETDATE(),
+            \'127.0.0.1\'
+        )')
+ 2 APPPATH\Controllers\Login.php(87): App\Models\CustomerModel->register([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Login->handleRegister()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 01:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-04 01:28:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.Accounts' with unique index 'IX_Accounts_email'. The duplicate key value is (adnan@test.com).
+CRITICAL - 2023-09-04 01:28:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.Accounts' with unique index 'IX_Accounts_email'. The duplicate key value is (adnan@test.com).
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(84): CodeIgniter\Database\BaseConnection->query('INSERT INTO Accounts ( 
+            email,
+            UserID,
+            MD5Password,
+            AccountStatus,
+            dateregistered,
+            ReferralID,
+            lastlogindate,
+            lastloginIP
+        ) VALUES (
+            \'adnan@test.com\',
+            \'test123\',
+            \'test123\',
+            \'100\',
+            GETDATE(),
+            0,
+            GETDATE(),
+            \'127.0.0.1\'
+        )')
+ 2 APPPATH\Controllers\Login.php(87): App\Models\CustomerModel->register([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Login->handleRegister()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 01:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 01:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,158 @@
+CRITICAL - 2023-09-07 00:54:24 --> Undefined variable $totalAccounts
+in APPPATH\Views\admin\index.php on line 16.
+ 1 APPPATH\Views\admin\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAccounts', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\admin\News.php(16): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:03:44 --> Undefined variable $account
+in APPPATH\Views\admin\news.php on line 103.
+ 1 APPPATH\Views\admin\news.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $account', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\news.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\news.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/news', [], true)
+ 5 APPPATH\Controllers\admin\News.php(20): view('admin/news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:27:08 --> Undefined constant "App\Controllers\Admin\PUBLICPATH"
+in APPPATH\Controllers\admin\News.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:28:08 --> Undefined constant "App\Controllers\Admin\HOMEPATH"
+in APPPATH\Controllers\admin\News.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 10:30:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'test'.
+CRITICAL - 2023-09-07 10:30:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'test'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO vpanel_news (tags, description, title, date_added) VALUES(\'hatnz, test\', \'testsdfsdfsdf, \'test\', \'2023-09-07 10:30:42\'\')')
+ 2 APPPATH\Controllers\admin\News.php(51): App\Models\NewsModel->addOrUpdateNews([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 10:33:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Unclosed quotation mark after the character string '2023-09-07 10:33:08')'.
+CRITICAL - 2023-09-07 10:33:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Unclosed quotation mark after the character string '2023-09-07 10:33:08')'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\NewsModel.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO vpanel_news (tags, description, title, date_added) VALUES(\'hatnz, test\', \'testsdfsdfsdf\', \'test\', \'2023-09-07 10:33:08\'\')')
+ 2 APPPATH\Controllers\admin\News.php(51): App\Models\NewsModel->addOrUpdateNews([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:34:30 --> The route for "?success=true" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('?success=true')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\admin\News.php(55): redirect('?success=true')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:48:41 --> Too few arguments to function App\Controllers\Admin\News::handleDelete(), 0 passed in C:\nginx-1.24.0\html\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\admin\News.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->handleDelete()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:48:46 --> Too few arguments to function App\Controllers\Admin\News::handleDelete(), 0 passed in C:\nginx-1.24.0\html\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\admin\News.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->handleDelete()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:58:36 --> Undefined variable $session
+in APPPATH\Controllers\admin\News.php on line 63.
+ 1 APPPATH\Controllers\admin\News.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\nginx-1.24.0\\html\\app\\Controllers\\admin\\News.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-07 10:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 10:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-07 11:05:00 --> The route for "/admin/news?success=true" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/admin/news?success=true')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\admin\News.php(55): redirect('/admin/news?success=true')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-07 11:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-07 11:05:10 --> The route for "admin/news?success=true" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/news?success=true')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\admin\News.php(55): redirect('admin/news?success=true')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-07 11:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-07 11:05:11 --> The route for "admin/news?success=true" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/news?success=true')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\admin\News.php(55): redirect('admin/news?success=true')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-07 11:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-07 11:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,211 @@
+INFO - 2023-09-06 11:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 11:08:46 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Home::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Home::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('admin')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:23:32 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\nginx-1.24.0\\html\\app\\Controllers\\Admin\\LayoutAdmin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\LayoutAdmin')
+ 3 APPPATH\Controllers\admin\home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\LayoutAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:06 --> Call to a member function getUri() on null
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:06 --> Call to a member function getUri() on null
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:07 --> Call to a member function getUri() on null
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:52 --> explode() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 10.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(10): explode('/')
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:52 --> explode() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 10.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(10): explode('/')
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:52 --> explode() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 10.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(10): explode('/')
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:53 --> explode() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 10.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(10): explode('/')
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:35:22 --> Only variables should be passed by reference
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\nginx-1.24.0\\html\\app\\Controllers\\admin\\LayoutAdmin.php', 9)
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:35:23 --> Only variables should be passed by reference
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\nginx-1.24.0\\html\\app\\Controllers\\admin\\LayoutAdmin.php', 9)
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:35:25 --> Only variables should be passed by reference
+in APPPATH\Controllers\admin\LayoutAdmin.php on line 9.
+ 1 APPPATH\Controllers\admin\LayoutAdmin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\nginx-1.24.0\\html\\app\\Controllers\\admin\\LayoutAdmin.php', 9)
+ 2 APPPATH\Controllers\admin\home.php(13): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 11:43:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '`'.
+CRITICAL - 2023-09-06 11:43:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '`'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(CustomerID) as count FROM Accounts WHERE `AccountStatus` = 100')
+ 2 APPPATH\Controllers\admin\Home.php(19): App\Models\CustomerModel->getTotalAccounts()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 11:48:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'isDeveloper'.
+CRITICAL - 2023-09-06 11:48:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'isDeveloper'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(CustomerID) as count FROM Accounts WHERE isDeveloper > 0')
+ 2 APPPATH\Controllers\admin\Home.php(22): App\Models\CustomerModel->totalDevelopers()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 11:55:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '5'.
+CRITICAL - 2023-09-06 11:55:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '5'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Accounts LIMIT 5')
+ 2 APPPATH\Controllers\admin\Home.php(23): App\Models\CustomerModel->getLastAccounts()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 11:55:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '5'.
+CRITICAL - 2023-09-06 11:55:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '5'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Accounts ORDER BY CustomerID DESC 5 ROWS ONLY')
+ 2 APPPATH\Controllers\admin\Home.php(23): App\Models\CustomerModel->getLastAccounts()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 12:30:44 --> Undefined variable $totalAccounts
+in APPPATH\Views\admin\index.php on line 16.
+ 1 APPPATH\Views\admin\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAccounts', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\admin\Customers.php(16): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 12:51:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'CustomerID'.
+CRITICAL - 2023-09-06 12:51:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'CustomerID'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CustomerModel.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Accounts a LEFT JOIN UsersData ud ON a.CustomerID = ud.CustomerID ORDER BY CustomerID DESC')
+ 2 APPPATH\Controllers\admin\Customers.php(24): App\Models\CustomerModel->getCustomers()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:23:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\admin\Customers.php(46): CodeIgniter\Model->__call('setGC', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->setGC('1002730')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:23:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\admin\Customers.php(46): CodeIgniter\Model->__call('setGC', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->setGC('1002730')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:23:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\admin\Customers.php(46): CodeIgniter\Model->__call('setGC', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->setGC('1002730')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:25:56 --> Undefined array key "GamePoints"
+in APPPATH\Views\admin\customers.php on line 59.
+ 1 APPPATH\Views\admin\customers.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "GamePoints"', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/customers', [], true)
+ 5 APPPATH\Controllers\admin\Customers.php(39): view('admin/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:30:27 --> Undefined array key "customer_id"
+in APPPATH\Views\admin\customers.php on line 59.
+ 1 APPPATH\Views\admin\customers.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/customers', [], true)
+ 5 APPPATH\Controllers\admin\Customers.php(41): view('admin/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:30:28 --> Undefined array key "customer_id"
+in APPPATH\Views\admin\customers.php on line 59.
+ 1 APPPATH\Views\admin\customers.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\customers.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/customers', [], true)
+ 5 APPPATH\Controllers\admin\Customers.php(41): view('admin/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()

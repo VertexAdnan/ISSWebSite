@@ -1,0 +1,29 @@
+INFO - 2023-10-14 17:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-14 17:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-14 17:39:37 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]MAX_PROVS: Connection string is not valid [87].  SQLSTATE: 08001, code: 87
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 87 in C:\nginx-1.24.0\html\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\nginx-1.24.0\html\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\nginx-1.24.0\html\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\nginx-1.24.0\html\app\Models\SettingModel.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#3 C:\nginx-1.24.0\html\app\Controllers\LayoutController.php(57): App\Models\SettingModel->getSettings()
+#4 C:\nginx-1.24.0\html\app\Controllers\Home.php(27): App\Controllers\LayoutController->renderHeader()
+#5 C:\nginx-1.24.0\html\system\CodeIgniter.php(915): App\Controllers\Home->index()
+#6 C:\nginx-1.24.0\html\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\nginx-1.24.0\html\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\nginx-1.24.0\html\index.php(81): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-14 17:39:37 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]MAX_PROVS: Connection string is not valid [87].  SQLSTATE: 08001, code: 87
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 87
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\SettingModel.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vpanel_settings')
+ 3 APPPATH\Controllers\LayoutController.php(57): App\Models\SettingModel->getSettings()
+ 4 APPPATH\Controllers\Home.php(27): App\Controllers\LayoutController->renderHeader()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()

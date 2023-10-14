@@ -1,0 +1,58 @@
+CRITICAL - 2023-09-09 00:07:52 --> Invalid file: "admin/market.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/market.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/market', [], true)
+ 3 APPPATH\Controllers\admin\Market.php(51): view('admin/market', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->items()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 00:10:21 --> Trying to access array offset on value of type resource
+in APPPATH\Views\admin\market\items.php on line 80.
+ 1 APPPATH\Views\admin\market\items.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type resource', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\market\\items.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\market\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/market/items', [], true)
+ 5 APPPATH\Controllers\admin\Market.php(76): view('admin/market/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->items()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 00:35:37 --> Undefined variable $totalAccounts
+in APPPATH\Views\admin\index.php on line 16.
+ 1 APPPATH\Views\admin\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAccounts', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\admin\Coupons.php(16): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Coupons->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 00:36:19 --> Invalid file: "admin/market.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/market.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/market', [], true)
+ 3 APPPATH\Controllers\admin\Market.php(20): view('admin/market', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-09 11:39:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'SET'.
+CRITICAL - 2023-09-09 11:39:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'SET'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CouponModel.php(53): CodeIgniter\Database\BaseConnection->query('INSERT INTO vpanel_coupon SET coupon = \'test342342\', dollar = \'10000\', vipdays = \'7\', count = \'2\', used = \'0\', status = \'1\'')
+ 2 APPPATH\Controllers\admin\Coupons.php(44): App\Models\CouponModel->addCoupon([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Coupons->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-09 11:40:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'coupon'.
+CRITICAL - 2023-09-09 11:40:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'coupon'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\CouponModel.php(53): CodeIgniter\Database\BaseConnection->query('INSERT INTO vpanel_coupon coupon = \'test342342\', dollar = \'10000\', vipdays = \'7\', count = \'2\', used = \'0\', status = \'1\'')
+ 2 APPPATH\Controllers\admin\Coupons.php(44): App\Models\CouponModel->addCoupon([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Coupons->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()

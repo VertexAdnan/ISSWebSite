@@ -1,0 +1,104 @@
+CRITICAL - 2023-09-08 02:12:01 --> Undefined array key "child"
+in APPPATH\Views\admin\lays\header.php on line 64.
+ 1 APPPATH\Views\admin\lays\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "child"', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\lays\\header.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\lays\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/lays/header', [], true)
+ 5 APPPATH\Controllers\admin\LayoutAdmin.php(59): view('admin/lays/header', [...])
+ 6 APPPATH\Controllers\admin\Market.php(16): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 02:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 02:14:50 --> Undefined array key "child"
+in APPPATH\Views\admin\lays\header.php on line 66.
+ 1 APPPATH\Views\admin\lays\header.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "child"', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\lays\\header.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\lays\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/lays/header', [], true)
+ 5 APPPATH\Controllers\admin\LayoutAdmin.php(76): view('admin/lays/header', [...])
+ 6 APPPATH\Controllers\admin\Market.php(16): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 02:15:33 --> Undefined variable $totalAccounts
+in APPPATH\Views\admin\index.php on line 16.
+ 1 APPPATH\Views\admin\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAccounts', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\admin\Coupons.php(16): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Coupons->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 02:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 02:15:41 --> Undefined variable $totalAccounts
+in APPPATH\Views\admin\index.php on line 16.
+ 1 APPPATH\Views\admin\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAccounts', 'C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\admin\Coupons.php(16): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Coupons->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 02:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 02:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 22:22:21 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\admin\LayoutAdmin.php(14): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 APPPATH\Controllers\admin\Market.php(24): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 22:22:22 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\admin\LayoutAdmin.php(14): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 APPPATH\Controllers\admin\Market.php(24): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 22:23:55 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\admin\LayoutAdmin.php(14): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 APPPATH\Controllers\admin\Market.php(24): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 22:24:00 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Controllers\admin\LayoutAdmin.php(14): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 APPPATH\Controllers\admin\Market.php(24): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 22:24:03 --> Request URI segment is out of range: "0"
+in SYSTEMPATH\HTTP\URI.php on line 556.
+ 1 SYSTEMPATH\HTTP\URI.php(556): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(0)
+ 2 APPPATH\Controllers\admin\LayoutAdmin.php(14): CodeIgniter\HTTP\URI->getSegment(0)
+ 3 APPPATH\Controllers\admin\Market.php(24): App\Controllers\Admin\LayoutAdmin->renderHeader()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-08 23:58:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'vpanel_market_items'.
+CRITICAL - 2023-09-08 23:58:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'vpanel_market_items'.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\MarketModel.php(38): CodeIgniter\Database\BaseConnection->query('DELETE FROM vpanel_market_items WHERE market_id = \'3\'')
+ 2 APPPATH\Controllers\admin\Market.php(64): App\Models\MarketModel->removePage('3')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Admin\Market->handleRemovePage('3')
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()

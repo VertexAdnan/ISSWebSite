@@ -1,0 +1,72 @@
+CRITICAL - 2023-10-13 11:38:49 --> Undefined array key "start"
+in APPPATH\Models\BlogModel.php on line 59.
+ 1 APPPATH\Models\BlogModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start"', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 59)
+ 2 APPPATH\Controllers\Api.php(23): App\Models\BlogModel->getBlogs([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getBlogsSameCategory('first-blog')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 12:46:51 --> Undefined array key "start"
+in APPPATH\Models\BlogModel.php on line 59.
+ 1 APPPATH\Models\BlogModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start"', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 59)
+ 2 APPPATH\Controllers\Api.php(23): App\Models\BlogModel->getBlogs([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getBlogsSameCategory('first-blog')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 12:57:45 --> Trying to access array offset on value of type null
+in APPPATH\Models\BlogModel.php on line 10.
+ 1 APPPATH\Models\BlogModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 10)
+ 2 APPPATH\Controllers\Api.php(25): App\Models\BlogModel->getCategoryID('My-Third-Category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getBlogsSameCategory('My-Third-Category')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 13:30:05 --> Trying to access array offset on value of type null
+in APPPATH\Models\BlogModel.php on line 10.
+ 1 APPPATH\Models\BlogModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 10)
+ 2 APPPATH\Controllers\Api.php(25): App\Models\BlogModel->getCategoryID('My-Third-Category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getBlogsSameCategory('My-Third-Category')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 13:30:19 --> Trying to access array offset on value of type null
+in APPPATH\Models\BlogModel.php on line 10.
+ 1 APPPATH\Models\BlogModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 10)
+ 2 APPPATH\Controllers\Api.php(25): App\Models\BlogModel->getCategoryID('My-Third-Category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getBlogsSameCategory('My-Third-Category')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 13:35:02 --> Undefined array key "start"
+in APPPATH\Models\BlogModel.php on line 66.
+ 1 APPPATH\Models\BlogModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start"', 'C:\\nginx-1.24.0\\html\\app\\Models\\BlogModel.php', 66)
+ 2 APPPATH\Controllers\Api.php(23): App\Models\BlogModel->getBlogs([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api->getCategory('My-Third-Category')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 13:41:04 --> Undefined variable $title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\nginx-1.24.0\\html\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Layout\Header.php(7): view('layout/header', [])
+ 6 APPPATH\Controllers\Home.php(11): App\Controllers\Layout\Header->render()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 13:41:05 --> Undefined variable $title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\nginx-1.24.0\\html\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\nginx-1.24.0\\html\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Layout\Header.php(7): view('layout/header', [])
+ 6 APPPATH\Controllers\Home.php(11): App\Controllers\Layout\Header->render()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
